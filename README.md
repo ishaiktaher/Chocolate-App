@@ -1,13 +1,13 @@
-###Chocolate App::
+### Chocolate App::
 An App with list and brands of chocolate app ,developed using :
 
-###1.React (for UI)
-###2.Redux (for state management)
-###3.Redux-Saga (for handling Asynchronous Operations )
-###4.React-Router-Dom (for Navigation)
-###5.JSON-Server for Backend
+### 1.React (for UI)
+### 2.Redux (for state management)
+### 3.Redux-Saga (for handling Asynchronous Operations )
+### 4.React-Router-Dom (for Navigation)
+### 5.JSON-Server for Backend
 
-###Steps ::
+### Steps ::
 
 #1.Use "npm install" for installing all the dependencies
 
