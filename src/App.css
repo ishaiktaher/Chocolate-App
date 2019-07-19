@@ -1,0 +1,170 @@
+body{
+  background-color: khaki;
+}
+.App {
+  text-align: center;
+}
+/* .container{
+  min-height: 390px !important;
+} */
+.minContentHeight{
+  min-height: 387px !important;
+}
+.alignCenter{
+  margin: auto;
+  width: 60%;
+  /* border: 3px solid blueviolet; */
+  padding: 10px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.topHeader{
+  color: white;
+  background: darkred;
+  border-radius: 0 0 15px 15px;
+}
+
+.nav-link{
+  color:aliceblue !important;
+}
+.nav-link :hover{
+  color:yellow !important;
+}
+.nav-link :active{
+  color:black !important;
+}
+.topHeaderHeading{
+  font-family: cursive;
+  font-size: xx-large;
+  /* padding-top:4px; */
+}
+.topHeaderContent{
+  font-family: cursive;
+}
+.brandDetName{
+  font-size: -webkit-xxx-large;
+    font-family: cursive;
+    color: darkred;
+}
+.App-link {
+  color: #61dafb;
+}
+.brandsList{
+  margin: 32px;
+  display: inline-block;
+  background: white;
+  border-radius: 5px;
+}
+.brandsDetHeader{
+  font-family: cursive;
+  font-size: -webkit-xxx-large;
+  color: darkred;
+}
+.ibrandsImg{
+  width: 150px;
+  
+  height: 150px;
+  }
+.ibrandsImg >img{
+  width: inherit;
+   height: inherit;
+}
+.brandsName{
+  height: 50px;
+    background: yellow;
+    color: brown;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: cursive;
+}
+.brandsNameChocolates{
+  
+  background: yellow;
+  color: brown;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.brandsDetailMainDiv{
+  padding: 10px;
+  border: 2px solid darkred;
+  font-weight: bold;
+  font-family: sans-serif;
+  /* height: 390px;
+  overflow: auto; */
+}
+div.card {
+  /* width: 250px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.loginCard{
+  width: 40%;
+  border-radius: 10px;
+}
+
+ .card > img{
+  height: inherit;
+  width: inherit;
+}
+.homeMainDiv{
+  font-family: sofia;
+  color: red;
+  border: 2px solid transparent;
+  line-height: 62px;
+  font-size: xx-large;
+  font-weight: bold;
+ padding: 50px;
+}
+.homeSignUpDiv{
+  font-size: 20px;
+    padding-top: 20px;
+}
+/*
+.card-body{
+  padding:0;
+} */
+.card-header{
+  background: transparent;
+  font-weight: bolder;
+  font-size: xx-large;
+  
+}
+footer{
+  background: #3d1010;
+    bottom: 0px;
+    color: white;
+    margin-top: 18px;
+}
+.centeredDiv{
+  padding-top: 35%;
+    padding-left: 35%;
+    padding-bottom: -35%
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
